@@ -1,0 +1,50 @@
+USE fittrack_db;
+INSERT INTO user (firstname, lastname) 
+VALUES ("Josh", "Malone");
+INSERT INTO user (firstname, lastname) 
+VALUES ("Adam", "Juwig");
+INSERT INTO user (firstname, lastname) 
+VALUES ("Jammie", "Hardy");
+
+
+INSERT INTO gym_workout(type_of_workout, number_of_sets, reps, calories_burned)
+VALUES ("bench press", 4, 10, 125)
+INSERT INTO gym_workout(type_of_workout, number_of_sets, reps, calories_burned)
+VALUES ("squats", 4, 10, 170)
+INSERT INTO gym_workout(type_of_workout, number_of_sets, reps, calories_burned)
+VALUES ("shoulder press", 4, 10, 76)
+INSERT INTO gym_workout(type_of_workout, number_of_sets, reps, calories_burned)
+VALUES ("leg press", 4, 10, 75)
+INSERT INTO gym_workout(type_of_workout, number_of_sets, reps, calories_burned)
+VALUES ("hamstring curls", 4, 10, 50)
+INSERT INTO gym_workout(type_of_workout, number_of_sets, reps, calories_burned)
+VALUES ("bicep curls", 4, 10, 50)
+
+
+INSERT INTO active_workout(workout_active, time_clocked,calories_burned)
+VALUES("mountain biking", 60, 4500)
+INSERT INTO active_workout(workout_active, time_clocked,calories_burned)
+VALUES("basketball", 30, 2500)
+INSERT INTO active_workout(workout_active, time_clocked,calories_burned)
+VALUES("tennis", 30, 2500)
+INSERT INTO active_workout(workout_active, time_clocked,calories_burned)
+VALUES("hiking", 60, 3500)
+INSERT INTO active_workout(workout_active, time_clocked,calories_burned)
+VALUES("running", 60, 4500)
+INSERT INTO active_workout(workout_active, time_clocked,calories_burned)
+VALUES("walking", 20, 1300)
+
+INSERT INTO playlist(genre, song, artist)
+VALUES("Rock", "Crazy Train", "Ozzy Osbourne")
+INSERT INTO playlist(genre, song, artist)
+VALUES("Rock", "We Will Rock You", "Queen")
+INSERT INTO playlist(genre, song, artist)
+VALUES("Rock", "back in black", "AC/DC")
+INSERT INTO playlist(genre, song, artist)
+VALUES("hip-hop", "mama said knock you out", "LL Cool J")
+INSERT INTO playlist(genre, song, artist)
+VALUES("Rock", "The Game", "Motorhead")
+INSERT INTO playlist(genre, song, artist)
+VALUES("Rock", "Radioactive", "Imagine Dragon")
+INSERT INTO playlist(genre, song, artist)
+VALUES("hip-hop", "Till I Collapse", "Eminem")
